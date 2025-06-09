@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" id="to">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>View Transition Tutorial</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="logo"><img src="./assets/logo.svg" /></div>
+
+            <nav class="nav">
+                <a href="from.html" class="nav-item">My Stories</a>
+                <a href="#" class="nav-item">World</a>
+            </nav>
+
+            <div style="display: flex; align-items: center; gap: 1rem">
+                <button class="new-story-btn">
+                    <span>+</span>
+                    New Story
+                </button>
+
+                <div class="user-profile">
+                    <div class="user-avatar"></div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="story-hero">
+                <img id="hero-image" src="./assets/image-3.jpg" />
+                <div class="story-hero-overlay" id="overlay">
+                    <div class="breadcrumb" id="breadcrumb">
+                        <a href="from.html">My Stories</a>
+                        <span class="breadcrumb-separator">/</span>
+                        <a href="#">World in the Glass</a>
+                    </div>
+                    <div class="story-tag" id="story-tag">Sci-Fi</div>
+                    <h1 class="story-title">World in the Glass</h1>
+                    <div class="story-meta" id="story-meta">
+                        <div class="story-meta-item">
+                            <span>Created: June 1, 2025</span>
+                        </div>
+                        <div class="story-meta-item">
+                            <span>Reading time: 15 min</span>
+                        </div>
+                        <div class="story-meta-item">
+                            <span>Chapters: 5</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="story-content-wrapper">
+                <div class="story-content">
+                    <div class="story-main">
+                        <div class="story-chapter">
+                            <h2 class="chapter-title" id="title">
+                                Chapter 1: The Discovery
+                            </h2>
+                            <div class="chapter-content">
+                                <p>
+                                    Max Forrester had always considered himself
+                                    an unremarkable man. At thirty-two, he lived
+                                    alone in a modest apartment, worked as a
+                                    history professor at the local community
+                                    college, and spent most of his free time
+                                    buried in books about ancient civilizations.
+                                    His colleagues often joked that he knew more
+                                    about people who had been dead for centuries
+                                    than those currently alive. They weren't
+                                    entirely wrong.
+                                </p>
+                                <p>
+                                    It was on a rainy Tuesday afternoon when
+                                    Max's life changed forever. He had been
+                                    browsing through a small antique shop that
+                                    had recently opened on the corner of his
+                                    street. The shop was cluttered with dusty
+                                    artifacts, forgotten treasures, and items
+                                    whose origins were lost to time. The air
+                                    smelled of old paper and polished wood.
+                                </p>
+                                <p>
+                                    "Can I help you find anything specific?"
+                                    asked the shopkeeper, an elderly woman with
+                                    silver hair and eyes that seemed to hold
+                                    secrets of their own.
+                                </p>
+                                <p>
+                                    "Just looking," Max replied, his attention
+                                    already captured by something in the corner
+                                    of the room.
+                                </p>
+                                <p>
+                                    It was a mirror, unlike any he had seen
+                                    before. The frame was made of dark wood,
+                                    intricately carved with symbols he didn't
+                                    recognize—and as a historian, that was
+                                    unusual. The glass itself seemed to shimmer
+                                    slightly, even in the dim light of the shop.
+                                    Max approached it cautiously, drawn by an
+                                    inexplicable pull.
+                                </p>
+                                <p>
+                                    "Ah, you have good taste," the shopkeeper
+                                    said, appearing beside him. "That piece is
+                                    quite special. They say it once belonged to
+                                    an alchemist who claimed it showed more than
+                                    just reflections."
+                                </p>
+                                <p>
+                                    Max smiled politely at what he assumed was a
+                                    sales pitch. "It's beautiful craftsmanship.
+                                    How much?"
+                                </p>
+                                <p>
+                                    The price was surprisingly reasonable,
+                                    almost suspiciously so for such an elaborate
+                                    piece. Before he could reconsider, Max found
+                                    himself carrying the mirror back to his
+                                    apartment, struggling against the rain and
+                                    wind as if nature itself was trying to
+                                    prevent him from taking it home.
+                                </p>
+                                <p>
+                                    That night, as thunder crashed outside his
+                                    window, Max hung the mirror on the wall of
+                                    his study. For a moment, he stood before it,
+                                    examining his reflection. Nothing seemed
+                                    unusual—just the same tired eyes, the same
+                                    disheveled brown hair, the same unremarkable
+                                    Max Forrester.
+                                </p>
+                                <p>
+                                    He turned away to prepare for bed, unaware
+                                    that behind him, the surface of the mirror
+                                    rippled like water disturbed by a gentle
+                                    breeze. By morning, his world would never be
+                                    the same again.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="story-actions">
+                            <button class="action-btn">Bookmark</button>
+                            <button class="action-btn">Share</button>
+                            <button class="action-btn primary">
+                                Next Chapter
+                            </button>
+                        </div>
+                    </div>
+
+                    <aside class="story-sidebar">
+                        <div class="sidebar-section">
+                            <h3 class="sidebar-title">Chapters</h3>
+                            <ul class="chapters-list">
+                                <li>
+                                    <a href="#" class="active"
+                                        >Chapter 1: The Discovery
+                                        <span class="chapter-number">1</span></a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        >Chapter 2: First Portal
+                                        <span class="chapter-number">2</span></a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        >Chapter 3: The Ancient Kingdom
+                                        <span class="chapter-number">3</span></a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        >Chapter 4: Reflections
+                                        <span class="chapter-number">4</span></a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        >Chapter 5: The Return
+                                        <span class="chapter-number">5</span></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-section">
+                            <h3 class="sidebar-title">Related Stories</h3>
+                            <div class="related-stories">
+                                <a
+                                    href="story-neon-dreams.html"
+                                    class="related-story"
+                                >
+                                    <div class="related-story-overlay">
+                                        <div class="related-story-tag">
+                                            Sci-Fi
+                                        </div>
+                                        <div class="related-story-title">
+                                            Neon Dreams
+                                        </div>
+                                    </div>
+                                </a>
+                                <a
+                                    href="story-lighthouse.html"
+                                    class="related-story"
+                                >
+                                    <div class="related-story-overlay">
+                                        <div class="related-story-tag">
+                                            Mystery
+                                        </div>
+                                        <div class="related-story-title">
+                                            The Lighthouse
+                                        </div>
+                                    </div>
+                                </a>
+                                <a
+                                    href="story-mountain-escape.html"
+                                    class="related-story"
+                                >
+                                    <div class="related-story-overlay">
+                                        <div class="related-story-tag">
+                                            Romance
+                                        </div>
+                                        <div class="related-story-title">
+                                            Mountain Escape
+                                        </div>
+                                    </div>
+                                </a>
+                                <a
+                                    href="story-desert-winds.html"
+                                    class="related-story"
+                                >
+                                    <div class="related-story-overlay">
+                                        <div class="related-story-tag">
+                                            Adventure
+                                        </div>
+                                        <div class="related-story-title">
+                                            Desert Winds
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

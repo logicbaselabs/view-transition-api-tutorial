@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" id="from">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>View Transition Tutorial</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="logo"><img src="./assets/logo.svg" /></div>
+
+            <nav class="nav">
+                <a href="#" class="nav-item active">My Stories</a>
+                <a href="#" class="nav-item">World</a>
+            </nav>
+
+            <div style="display: flex; align-items: center; gap: 1rem">
+                <button class="new-story-btn">
+                    <span>+</span>
+                    New Story
+                </button>
+
+                <div class="user-profile">
+                    <div class="user-avatar"></div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <h1 class="page-title" id="title">My Stories</h1>
+
+            <div class="stories-container">
+                <div class="story-card">
+                    <img src="./assets/image-1.jpg" alt="Neon Dreams" />
+                    <div class="story-overlay">
+                        <div class="story-content">
+                            <div class="story-tag">Romance</div>
+                            <h2 class="story-title">Mountain Escape</h2>
+                            <p class="story-description">
+                                Two strangers find love in the most unexpected
+                                place during a mountain retreat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <img src="./assets/image-2.jpg" alt="Neon Dreams" />
+                    <div class="story-overlay">
+                        <div class="story-content">
+                            <div class="story-tag">Mystery</div>
+                            <h2 class="story-title">The Lighthouse</h2>
+                            <p class="story-description">
+                                A mysterious lighthouse holds secrets that could
+                                change everything we know about the past.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <img
+                        src="./assets/image-3.jpg"
+                        alt="World in the Glass"
+                        id="story-image"
+                    />
+                    <a href="./to.html">
+                        <div class="story-overlay">
+                            <div class="story-content">
+                                <div class="story-tag" id="story-tag">
+                                    Sci-Fi
+                                </div>
+                                <h2 class="story-title">World in the Glass</h2>
+                                <p class="story-description">
+                                    A cyberpunk adventure in a dystopian future
+                                    where reality and virtual worlds collide.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="story-card">
+                    <img src="./assets/image-4.jpg" alt="Neon Dreams" />
+                    <div class="story-overlay">
+                        <div class="story-content">
+                            <div class="story-tag">Adventure</div>
+                            <h2 class="story-title">Desert Winds</h2>
+                            <p class="story-description">
+                                An epic journey across vast deserts in search of
+                                a legendary treasure hidden for centuries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
