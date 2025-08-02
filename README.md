@@ -4,6 +4,7 @@ Welcome to the official source code repository for the **View Transition API Tut
 
 🎬 **Watch the full tutorial:**
 👉 [View Transition API Tutorial on YouTube](https://youtu.be/Fb-RNqiDoiw)
+[![Watch the video](https://img.youtube.com/vi/Fb-RNqiDoiw/maxresdefault.jpg)](https://www.youtube.com/watch?v=Fb-RNqiDoiw)
 
 ---
 
